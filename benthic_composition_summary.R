@@ -1,4 +1,4 @@
-## Read "benthic composition fcn.md" for instructions in using the function
+## See README.md for instructions
 
 ## Install required packages (if needed)
 requiredpackages <- c("readxl", "reshape2")

@@ -1,4 +1,4 @@
-## Read "flat file generator.md" for instructions in using the script
+## See README.md for instructions
 
 ## Install required packages (if needed)
 requiredpackages <- c("readxl", "reshape2")
@@ -64,4 +64,4 @@ names(melted)[3] <- "TRANSECT"
 names(melted)[4] <- "% COVER"
 
 ## Write .csv file of directory
-write.csv(melted, file = "flat file.csv", row.names=FALSE)
+write.csv(melted, file = "flatfile.csv", row.names=FALSE)
